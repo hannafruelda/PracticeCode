@@ -1,0 +1,60 @@
+#Creating a multiple inheritance using more than two classes.
+
+class Captain():
+    def Luffy (self):
+        print(" This is Monkey D. Luffy the Captain of Straw Hat Pirates ")
+        
+class Swordsman():
+    def Zoro(self):
+        print(" This is Roronoa Zoro the Sleeping Swordman of Straw Hat Pirates ")
+        
+class Navigator():
+    def Nami(self):
+        print(" This is Cat Burglar Nami the Navigator of Straw Hat Pirates ")
+        
+class Sniper():
+    def Usopp(self):
+        print(" This is Sniper King Soheking (Usopp) the Sniper of Straw Hat Pirates ")
+        
+class Chef():
+    def Sanji(self):
+        print(" This is Black Leg Sanji the Chef of Straw Hat Pirates  ")
+        
+class Doctor():
+    def Chopper(self):
+        print(" This is Tony Tony Chopper the Doctor of Straw Hat Pirates  ")
+        
+class Archaeologist():
+    def Robin(self):
+        print(" This is Devil Chil Nico Robin the Archaeologist of Straw Hat Pirates  ")
+        
+class Shipwright():
+    def Franky(self):
+        print(" This is Syborg Franky the Shipwright of Straw Hat Pirates  ")
+        
+class Musician():
+    def Brook(self):
+        print(" This is Humming Brook the Musician of Straw Hat Pirates  ")
+        
+class Helmsman():
+    def Jinbel(self):
+        print(" This is Jinbel the Helmsman of Straw Hat Pirates  ")
+        
+class Transport(Captain,Swordsman,Navigator,Sniper,Chef,Doctor,Archaeologist,Shipwright,Musician,Helmsman):
+    def Sanji(self):
+        print(" This is Black Leg Sanji the Chef of Straw Hat Pirates  ")
+    def Pirates(self):
+        print("The Straw Hat Pirates")
+        
+P=Transport()
+P.Luffy()
+P.Zoro()
+P.Nami()
+P.Usopp()
+P.Sanji()
+P.Chopper()
+P.Robin()
+P.Franky()
+P.Brook()
+P.Jinbel()
+P.Pirates()
