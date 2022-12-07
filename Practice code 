@@ -1,0 +1,16 @@
+#Inheriting_Attributes
+
+class Name(object):
+			def get_name (self):
+				return 'Hanna'
+				
+class Age (Name):
+			def get_age (self):
+				return '20'
+				
+n = Name ()
+print("Get name from the Name class: ",n.get_name())
+
+a = Age ()
+print("Get age from the Age class: ",a.get_age())
+print("Get name from age by inheriting or calling Name class method: ",a.get_name())
